@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: #f3f4f6;
 }
 
 h1 {
@@ -27,10 +27,10 @@ h1 {
     font-family: Liberation Sans, serif;
     font-weight: bold;
     transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .social-box:hover {
-    background-color: slateblue;
     transform: scale(1.05);
 }
 
