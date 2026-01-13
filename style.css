@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-family: Yu Gothic, serif;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.social-box {
+    display: block;
+    width: 250px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-family: Liberation Sans, serif;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.social-box:hover {
+    background-color: slateblue;
+    transform: scale(1.05);
+}
+
+.github {
+    background-color: #24292e;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
