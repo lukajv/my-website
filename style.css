@@ -1,15 +1,33 @@
 body {
-    background-color: #f3f4f6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    min-height: 100vh;
+    background-color: #ccd3e4;
 }
 
 h1 {
-    text-align: center;
-    font-family: Yu Gothic, serif;
+    margin-bottom: 5px;
+    font-size: 28px;
 }
 
-h3 {
+.email-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.profile-card {
+    background-color: #9d9dc5;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     text-align: center;
-    font-family: Yu Gothic, serif;
+    max-width: 350px;
+    width: 100%;
+    color: white;
+    font-family: Yu Gothic, sans-serif;
 }
 
 .social-container {
