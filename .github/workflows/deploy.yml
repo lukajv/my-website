@@ -14,5 +14,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            cd /var/www/egponent.me/html
+            cd ~/services/www/html/
             git pull origin main
